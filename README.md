@@ -2,8 +2,8 @@
 
 ## Integrantes
 
-Alatorre López José Carlos
-Oscar Adrián Regalado Ríos
+- Alatorre López José Carlos
+- Oscar Adrián Regalado Ríos
 
 ## Descripción
 
