@@ -1,23 +1,23 @@
 ```mermaid
 classDiagram
-    class User {
+    class Contacto {
         +id: int
-        +name: str
-        +email: str
+        +nombre: str
+        +correo: str
     }
 
-    class Book {
+    class Telefono {
         +id: int
-        +title: str
-        +author: str
+        +numero: str
+        +tipo: str
     }
 
-    class Loan {
+    class Direccion {
         +id: int
-        +user_id: int
-        +book_id: int
-        +date: str
+        +calle: str
+        +ciudad: str
+        +estado: str
     }
 
-    User --> Loan
-    Book --> Loan
+    Contacto --> Telefono : tiene >
+    Contacto --> Direccion : tiene >
